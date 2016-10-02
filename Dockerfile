@@ -3,7 +3,7 @@ From centos:6
 MAINTAINER shamaton
 
 # define
-ARG go_ver
+ARG go_ver="1.7.1"
 
 # root work
 RUN yum update -y
